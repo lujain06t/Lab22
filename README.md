@@ -67,13 +67,13 @@ The tests cover model loading, both endpoints, the response contract, invalid/mi
 
 GitHub Actions runs tests on every pull request. When changes reach `main`, it builds the Docker image, scans it with Trivy, and publishes it to GitHub Container Registry (GHCR), tagged with the full commit SHA. The workflow action is pinned to a full commit SHA.
 
-After the first successful publish, replace `YOUR_GITHUB_USERNAME` and `YOUR_REPOSITORY` below with your lowercase GitHub username and repository name to show the Actions badge:
+The live GitHub Actions badge for this repository:
 
 ```markdown
-![CI](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/lujain06t/Lab22/actions/workflows/ci.yml/badge.svg)
 ```
 
-The image address is `ghcr.io/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY:<commit-sha>`. The image digest is shown in the successful publish job's output/logs and on the package page in GitHub. Submit the digest actually produced by your run; do not guess it.
+The image address is `ghcr.io/lujain06t/lab22:<commit-sha>`. The image digest is shown in the successful publish job's output/logs and on the package page in GitHub. Submit the digest actually produced by your run; do not guess it.
 
 ## Model and dataset
 
