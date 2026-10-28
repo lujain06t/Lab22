@@ -69,9 +69,7 @@ GitHub Actions runs tests on every pull request. When changes reach `main`, it b
 
 The live GitHub Actions badge for this repository:
 
-```markdown
 ![CI](https://github.com/lujain06t/Lab22/actions/workflows/ci.yml/badge.svg)
-```
 
 The image address is `ghcr.io/lujain06t/lab22:<commit-sha>`. The image digest is shown in the successful publish job's output/logs and on the package page in GitHub. Submit the digest actually produced by your run; do not guess it.
 
